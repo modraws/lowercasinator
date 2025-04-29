@@ -1,0 +1,70 @@
+/**
+ * @name the lowercasinator
+ * @author momerob thiger a.k.a. modraws
+ * @version 1.0.0
+ * @description some goofass code i made to turn almost every string of text lowercase
+ * @source https://github.com/modraws/lowercasinator
+ */
+
+/* i present to you: the lowercasinator!!!
+   some goofass code i made to turn almost every string of text lowercase
+   if there's any text that i missed, please bug me until i fix it :3 */
+
+/* first off, we immediately make most of the text lowercase via :root
+   i say most of, because this doesn't get every little thing,
+   so i'll also add a fucking giant list of things that :root didn't grab
+
+   i don't suggest commenting out anything, that might break stuff;
+   instead please copy-paste the entry you don't want to be lowercase, to the list further below */
+
+:root,
+.emptyText__9d78f, /* "no friends in common" */
+[class*="inputDefault__"], /* input text */
+.input_a45028, .input_fea832, /* input text but also typed text becomes lowercase sorry */
+[class*="errorMessage_"], /* basically all error messages */
+[class*="protip_"], /* idk why the protips aren't capitalised but hey here you go */
+[class*="header__"], /* basically all headers */
+.headerLabel__14245, /* mfw the above thing didn't work for gif and sticker categories */
+.queryText__55c99, /* the "search for" text */
+.eyebrow_b717a1, /* some specific text in the settings */
+.embedAuthorName__623de, .embedTitle__623de, .embedFieldName__623de, .embedFieldValue__623de, .embedDescription__623de, .embedFooterText__623de, /* embed stuff */
+.eyebrow_cf4812, /* setting categories */
+.vc-friend-codes-info-header, /* who the hell even uses friend codes though */
+.contents__201d5, /* view full bio */
+.barText__7aaec, /* new unreads/mentions */
+.barButtonBase__0f481, /* mark as read */
+.span__0f481, /* x new messages since xx:xx a/pm */ 
+.botText__82f07, /* app text */
+.vc-notification-title, /* vc stands for vencord if you were wondering */
+.goalText_eff079, .progressText_eff079, /* boost progress bar */
+.topicsPillTextTitle__0f481, .topicsDropdownHeadingText__0f481, .text__0a12b, /* summaries heading text */
+.title_e97453, .subtitle_e97453, .timestamp_e97453, /* summaries themselves lol */
+.input_ac6cb0, .pro__30cbe, .match__71961, .note__71961, .miscContainer_ac6cb0, /* stuff pertaining to the quick switcher */
+[class*="tipTitle_"], .statusTag_e9cb00, .key_fcddc1, .markValue_a562c8, .ttsSliderMarker__5d148, .searchInput__3f413, .info__2debe, [class*="title_"] /* misc stuff */
+{
+/* putting font settings here for good measure, uncomment if needed
+        --font-primary: "Inter VF", sans-serif, "TwemojiColor" !important;
+        --font-display: "Inter VF", sans-serif, "TwemojiColor" !important;
+        --font-headline: var(--font-display) !important; */
+        text-transform: lowercase !important;
+    }
+
+/* next up, an exception list, for those things that we do want mixedcase
+   this includes usernames, messages, and more 
+   comment or uncomment anything you like, i prefer these settings myself */
+
+/*span, /* server and folder names in the server list */
+/*.name_f37cb1, /* server names in the channel list */
+/*.username__5d473, /* usernames in the sidebar*/
+/*.username_c19a55, /* usernames in the chat */
+.messageContent_c19a55, /* user message text */
+.codeView__4d95d, /* text file embeds */
+.markup__75297, /* About Me text and activity descriptions */
+/*.activityStatusText__972a0, /* statuses */
+.pronounsText__63ed3, /* pronouns */
+.text__10651, /* server tags */
+.postTitleText_faa96b, /* forum post titles */
+.deviceOptionLabel_fe5040 /* names of audio devices in settings */
+{
+        text-transform: none !important;
+}
