@@ -4,7 +4,8 @@ if there's anything that i missed, please bug me until i fix it :3
 
 ## "ok so how the fuck do i install this?"
 betterdiscord users should download the "lowercasinator.theme.css" file and upload it to their themes   
-vencord users can do the above, or they copypaste the below link in their Online Themes list   
+vencord users can do the above, or they copy-paste the below link to their Online Themes list   
+[https://raw.githubusercontent.com/modraws/lowercasinator/refs/heads/main/lowercasinator.theme.css](https://raw.githubusercontent.com/modraws/lowercasinator/refs/heads/main/lowercasinator.theme.css)   
 replugged users have installed replugged, they're probably not the type to use this kind of dumbfuck theme anyway   
 ## "uhhh i don't like that some specific kind of text is lowercased how do i undo that"   
 nerd   
