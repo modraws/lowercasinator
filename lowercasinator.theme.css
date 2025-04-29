@@ -11,3 +11,15 @@
    if there's any text that i missed, please bug me until i fix it :3 */
 
 @import url("https://raw.githubusercontent.com/modraws/lowercasinator/refs/heads/main/mingefuck.css");
+
+/* pretty sure i immediately broke shit, lemme put the exception list here and see if it fixes itself */
+.messageContent_c19a55, /* user message text */
+.codeView__4d95d, /* text file embeds */
+.markup__75297, /* About Me text and activity descriptions */
+.pronounsText__63ed3, /* pronouns */
+.text__10651, .badge__10651, /* server tags */
+.postTitleText_faa96b, /* forum post titles */
+.deviceOptionLabel_fe5040 /* names of audio devices in settings */
+{
+   text-transform: none !important;
+}
