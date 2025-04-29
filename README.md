@@ -1,6 +1,7 @@
 # i present to you: the lowercasinator!!!   
 some goofass code i made to turn almost every string of text lowercase   
-if there's anything that i missed, please bug me until i fix it :3
+if there's anything that i missed, please bug me until i fix it :3  
+and uh if things break, just know it's usually My Fault because I'm Smart and Can Do Things
 
 ## "ok so how the fuck do i install this?"
 betterdiscord users should download the "lowercasinator.theme.css" file and upload it to their themes   
