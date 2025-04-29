@@ -46,7 +46,7 @@ span, /* server and folder names in the server list */
 
 /* next up, an exception list, for those things that we do want mixedcase
    this includes usernames, messages, and more 
-   comment or uncomment anything you like, i prefer these settings myself */
+   add or remove anything you like, i prefer these settings myself */
 
 .messageContent_c19a55, /* user message text */
 .codeView__4d95d, /* text file embeds */
