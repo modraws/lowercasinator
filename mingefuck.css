@@ -32,6 +32,7 @@
 .vc-friend-codes-info-header, /* who the hell even uses friend codes though */
 .contents__201d5, /* view full bio */
 .barText__7aaec, /* new unreads/mentions */
+.text_eb2cd2, /* server creation modal */
 .barButtonBase__0f481, /* mark as read */
 .botText__82f07, /* app text */
 .vc-notification-title, /* vc stands for vencord if you were wondering */
@@ -39,7 +40,7 @@
 .topicsPillTextTitle__0f481, .topicsDropdownHeadingText__0f481, .text__0a12b, /* summaries heading text */
 .title_e97453, .subtitle_e97453, .timestamp_e97453, /* summaries themselves lol */
 .input_ac6cb0, .pro__30cbe, .match__71961, .note__71961, .miscContainer_ac6cb0, /* stuff pertaining to the quick switcher */
-[class*="tipTitle_"], .statusTag_e9cb00, .key_fcddc1, .markValue_a562c8, .ttsSliderMarker__5d148, .searchInput__3f413, .info__2debe, [class*="title_"] /* miscellaneous stuff */
+[class*="tipTitle_"], .statusTag_e9cb00, .key_fcddc1, .markValue_a562c8, .ttsSliderMarker__5d148, .searchInput__3f413, .info__2debe, [class*="title_"], .labelContainer_c1e9c4 /* miscellaneous stuff */
 {
    text-transform: lowercase !important;
 }
