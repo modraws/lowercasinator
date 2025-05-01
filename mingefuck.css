@@ -32,7 +32,7 @@
 .vc-friend-codes-info-header, /* who the hell even uses friend codes though */
 .contents__201d5, /* view full bio */
 .barText__7aaec, /* new unreads/mentions */
-.text_eb2cd2, /* server creation modal */
+.text_eb2cd2, .optionHeader_c04f35, /* server creation modal */
 .barButtonBase__0f481, /* mark as read */
 .botText__82f07, /* app text */
 .vc-notification-title, /* vc stands for vencord if you were wondering */
@@ -55,7 +55,9 @@
 .pronounsText__63ed3, /* pronouns */
 .text__10651, .badge__10651, /* server tags */
 .postTitleText_faa96b, /* forum post titles */
-.deviceOptionLabel_fe5040 /* names of audio devices in settings */
+.deviceOptionLabel_fe5040, /* names of audio devices in settings */
+.input__0f084 /* a few input thingies that should probably be mixedcase */
+
 {
    text-transform: none !important;
 }
