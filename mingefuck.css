@@ -18,7 +18,7 @@
 .postTitleText_faa96b, /* forum post titles */
 .deviceOptionLabel_fe5040 /* names of audio devices in settings */
 .emptyText__9d78f, /* "no friends in common" */
-[class*=unreadMentionsBar_], /* unread */
+[class*="unreadMentionsBar_"], /* unread */
 [class*="inputDefault__"], /* input text */
 .input_a45028, .input_fea832, /* input text but also typed text becomes lowercase sorry */
 [class*="errorMessage_"], /* basically all error messages */
