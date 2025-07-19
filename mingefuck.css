@@ -5,8 +5,9 @@
    i don't suggest commenting out anything, that might break stuff;
    instead please copy-paste the entry you don't want to be lowercase, to the list further below */
 
+::placeholder {text-transform: lowercase !important;}
+
 :root,
-::placeholder,
 .name_f37cb1, /* server names in the channel list */
 .username__5d473, /* usernames in the sidebar*/
 .username_c19a55, /* usernames in the chat */
