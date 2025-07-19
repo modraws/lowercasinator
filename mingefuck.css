@@ -59,7 +59,7 @@
 .text__10651, .badge__10651, /* server tags */
 .postTitleText_faa96b, /* forum post titles */
 .deviceOptionLabel_fe5040, /* names of audio devices in settings */
-.input__0f084 /* a few input thingies that should probably be mixedcase */
+[class*="input_"], [class*="input__"] /* a few input thingies that should probably be mixedcase */
 
 {
    text-transform: none !important;
