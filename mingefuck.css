@@ -22,8 +22,6 @@
 .emptyText__9d78f, /* "no friends in common" */
 [class*="buttonChildren__"], /* text in buttons*/
 [class*="unreadMentionsBar_"], /* unread */
-[class*="inputDefault__"], /* input text */
-.input_a45028, .input_fea832, /* input text but also typed text becomes lowercase sorry */
 [class*="errorMessage_"], /* basically all error messages */
 [class*="protip_"], /* idk why the protips aren't capitalised but hey here you go */
 [class*="header__"], /* basically all headers */
@@ -59,7 +57,7 @@
 .text__10651, .badge__10651, /* server tags */
 .postTitleText_faa96b, /* forum post titles */
 .deviceOptionLabel_fe5040, /* names of audio devices in settings */
-[class*="input_"], [class*="input__"] /* a few input thingies that should probably be mixedcase */
+[class*="inputDefault__"], [class*="input_"], [class*="input__"] /* a few input thingies that should probably be mixedcase */
 
 {
    text-transform: none !important;
