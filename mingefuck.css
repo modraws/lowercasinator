@@ -20,7 +20,7 @@
 .postTitleText_faa96b, /* forum post titles */
 .deviceOptionLabel_fe5040 /* names of audio devices in settings */
 .emptyText__9d78f, /* "no friends in common" */
-[class*="buttonChildren__"], /* text in buttons*/
+button, [class*="buttonChildren__"], /* text in buttons*/
 [class*="unreadMentionsBar_"], /* unread */
 [class*="errorMessage_"], /* basically all error messages */
 [class*="protip_"], /* idk why the protips aren't capitalised but hey here you go */
