@@ -26,11 +26,14 @@ button, [class*="-buttonChildren"], /* text in buttons*/
 [class*="-protip"], /* idk why the protips aren't capitalised but hey here you go */
 [class*="-header"], /* basically all headers */
 ._14245bb948377a25-headerLabel, /* mfw the above thing didn't work for gif and sticker categories */
-._55c999adcf6db265-queryText, /* the "search for" text */
+[class*="-emptyText"], /* the empty text in a search bar or something */
 .b717a15017b82443-eyebrow, /* some specific text in the settings */
 ._623de82e76ad7f82-embedAuthorName, ._623de82e76ad7f82-embedTitle, ._623de82e76ad7f82-embedFieldName, ._623de82e76ad7f82-embedFieldValue, ._623de82e76ad7f82-embedDescription, ._623de82e76ad7f82-embedFooterText, ._623de82e76ad7f82-embedProvider, /* embed stuff */
 .cf48127484dbde85-eyebrow, /* setting categories */
 .vc-friend-codes-info-header, /* who the hell even uses friend codes though */
+._530ce51b6bf15868-mutuals, /* mutual servers and or friends */
+._9d59731d47494e97-card>.cf48127484dbde85-text-xs/medium, /* game collection */
+._39ec2e3dfb4fd2f2-details, /* game titles in game collection */
 ._201d5e8a3c09670a-contents, /* view full bio */
 ._7aaec78b97ff00f7-barText, /* new unreads/mentions */
 .eb2cd27996d667df-text, .c04f357ea00ccf57-optionHeader, /* server creation modal */
@@ -41,7 +44,7 @@ button, [class*="-buttonChildren"], /* text in buttons*/
 ._0f481cbbd7530492-topicsPillTextTitle, ._0f481cbbd7530492-topicsDropdownHeadingText, ._0a12b61b88654e0a-text, /* summaries heading text */
 .e97453749c8b22b3-title, .sube97453749c8b22b3-title, .e97453749c8b22b3-timestamp, /* summaries themselves lol */
 .ac6cb02cd15b4b3b-input, ._30cbe28ac3d3507e-pro, ._71961da99d37ac57-match, ._71961da99d37ac57-note, .ac6cb02cd15b4b3b-miscContainer, /* stuff pertaining to the quick switcher */
-[class*="-tipTitle"], .e9cb00d6250845ad-statusTag, ._61c9355cca12ab4b-key, .a562c840daab72a7-markValue, .ttsSliderMarker__5d148, .a16aea1526925c2c-searchInput, ._2debea61131de3de-info, [class*="-title"], .c1e9c47c23f12ca3-labelContainer /* miscellaneous stuff */
+[class*="-tipTitle"], [class*="-title"] /* miscellaneous stuff */
 {
    text-transform: lowercase !important;
 }
