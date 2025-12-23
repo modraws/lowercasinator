@@ -16,6 +16,7 @@
 /* .b0dfc2ed9c57037d-overflow, /* many things, including user status, channel names and categories and a few more*/
 ._740174f3d6a2c8fe-textArea>div>div>div>span>span>span, /* message bar input */
 ._974928fe84ca9647-searchBar>div>div>div>div>div>div>span>span, /* search bar input */
+.vc-notification-container>.vc-notification-title, /* vencord in-app notifications */
 ._2666bc68709e8a16-backupCode span /* just in case for some reason your backup codes have capital letters in them, they shouldn't though */
 {
    text-transform: none !important;
