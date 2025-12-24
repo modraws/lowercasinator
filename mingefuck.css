@@ -5,7 +5,7 @@
 /* then we use this actual fuckoffery of an exception list to make certain kinds of text Not Lowercase
    you can copypaste this into your custom css to edit it or add more entries if you really want i mean i'm not stopping you lmao */
 
-/* ._703b91fc872193e8-username, /* usernames */
+/* .c19a557985eb7793-headerText *, /* usernames */
 .c19a557985eb7793-messageContent span, /* user message text */
 .c19a557985eb7793-messageContent code, /* user message codeblocks */
 .f4758a8d6346d18b-nonVisualMediaItem a, /* user non-embedded upload and embedded audio filename */
