@@ -1,6 +1,7 @@
 /* first, we make most of the text lowercase via the below code */
 
-*, ::placeholder, .eyebrow_cf4812, .cf48127484dbde85-eyebrow, .eyebrow__2b1f5, ._2b1f52e43a8f1c02-eyebrow, .name_f37cb1, .f37cb1984c371ee5-name {text-transform: lowercase;}
+*, ::placeholder, .eyebrow_cf4812, .cf48127484dbde85-eyebrow, .eyebrow__2b1f5, ._2b1f52e43a8f1c02-eyebrow, .name_f37cb1, .f37cb1984c371ee5-name,
+.labelContainer_c1e9c4, .c1e9c47c23f12ca3-labelContainer, .barText__7aaec, ._7aaec78b97ff00f7-barText {text-transform: lowercase;}
 
 /* then we use this actual fuckoffery of an exception list to make certain kinds of text Not Lowercase
    you can copypaste this into your custom css to edit it or add more entries if you really want i mean i'm not stopping you lmao */
